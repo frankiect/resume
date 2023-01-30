@@ -11,12 +11,9 @@ body {
     );
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
-    background-attachment: scroll;
+    background-attachment: fixed;
     font-family: 'Dosis', sans-serif;
     color: #655c7c;
-    min-height:auto;
-    background-repeat: no-repeat;
-    -webkit-user-drag: none;
   }
   
   @keyframes gradient {
