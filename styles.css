@@ -326,7 +326,7 @@ nav {
   #nav-links-container {
     width:4rem;
   }
-  .nav-buttons {
+  .nav-buttons, .nav-buttons:active, .nav-buttons:hover {
     width:3.5rem;
   }
   .info-container {
