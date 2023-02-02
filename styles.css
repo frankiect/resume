@@ -218,7 +218,8 @@ nav {
   white-space: normal;
   padding:12px;
   font-size: 0.9rem;
-  display: inline-flex;
+  display: inline;
+  flex-direction: column;
   text-align: left;
   align-items: center;
   background-color: rgba(255,255,255,0.5);
@@ -226,6 +227,20 @@ nav {
   border: 8px solid #b9afc4;
   margin-left: -8px;
   overflow-y: auto;
+}
+ .greeting-home {
+  display: inline;
+  text-align: center;
+  position: relative;
+  bottom: -20px;
+ }
+.fancy-name {
+  display: inline;
+  font-size: 2rem;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: italic;
+  position: relative;
 }
 
 /* EDUCATION SECTION */
