@@ -4,7 +4,7 @@ html {
 
 body {
     margin: auto;
-    overflow: auto;
+    overflow: hidden;
     background: linear-gradient(
       315deg,
       rgba(177,162,202, 1) 3%, rgb(190 197 219) 38%, rgb(240 211 190) 68%, rgba(255,109,106, 1) 98%
@@ -358,5 +358,11 @@ nav {
   }
   .mobile {
     display: block;
+  }
+  .nav-buttons:hover {
+    width: 3.5rem;
+  }
+  .nav-buttons:active {
+    width: 3.5rem;
   }
 }
