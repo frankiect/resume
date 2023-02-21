@@ -272,6 +272,77 @@ margin-left: -8px;
 overflow-y: auto;
 }
 
+/* PORTFOLIO SECTION */
+#folio-container {
+  width: 100%;
+  height: 560px;
+  font-size: 1rem;
+  display: flex;
+  margin-top: -80px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 20;
+}
+
+#folio-textbox {
+width:800px;
+height:500px;
+white-space: normal;
+padding:12px;
+font-size: 0.9rem;
+display: flex;
+flex-direction: column;
+text-align: left;
+align-items: center;
+background-color: rgba(255,255,255,0.5);
+border-radius: 15px 15px;
+border: 8px solid #b9afc4;
+margin-left: -8px;
+overflow-y: auto;
+}
+
+#folio-links {
+  font-size: 0.9rem;
+  color: #5c5373;
+}
+
+/* PORTFOLIO SECTION */
+#contact-container {
+  width: 100%;
+  height: 560px;
+  font-size: 1rem;
+  display: flex;
+  margin-top: -80px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 20;
+}
+
+#contact-textbox {
+width:800px;
+height:500px;
+white-space: normal;
+padding:12px;
+font-size: 0.9rem;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+background-color: rgba(255,255,255,0.5);
+border-radius: 15px 15px;
+border: 8px solid #b9afc4;
+margin-left: -8px;
+overflow-y: auto;
+}
+
+#contact-links {
+  text-decoration: none;
+  font-family: 'Fjalla One', sans-serif;
+  color: #655c7c;
+}
+
 /* CUSTOM SCROLL BAR*/
 
 /* width */
